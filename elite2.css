@@ -73,11 +73,11 @@ within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
 above to achieve the desired position. */
 .custom .trigger.left {
-  background: url(elite2-assets/trigger%20left.png);
+  background: url(elite2-assets/Trigger%20Left.png);
   float: left;
 }
 .custom .trigger.right {
-  background: url(elite2-assets/trigger%20right.png);
+  background: url(elite2-assets/Trigger%20Right.png);
   float: right;
 }
 
@@ -113,11 +113,11 @@ placement */
   NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
   /* -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg); */
-  background: url(elite2-assets/bumper%20left.png);
+  background: url(elite2-assets/Bumper%20Left.png);
   float: left;
 }
 .custom .bumper.right {
-  background: url(elite2-assets/bumper%20right.png);
+  background: url(elite2-assets/Bumper%20Right.png);
   float: right;
 }
 /* This bit of code is for the player indicator, which is represented in
