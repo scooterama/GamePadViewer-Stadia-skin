@@ -166,7 +166,7 @@ start and select buttons. */
 .custom .start.pressed {
 }
 .custom .back {
-  background: url(elite2-assets/start.png);
+  background: url(elite2-assets/Start.png);
   float: left;
   width: 38px;
 }
