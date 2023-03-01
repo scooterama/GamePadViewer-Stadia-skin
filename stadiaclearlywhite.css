@@ -248,8 +248,8 @@ the CSS inline. */
   position: absolute;
   width: 154px;
   height: 139px;
-  top: 208px;
-  left: 122px;
+  top: 135px;
+  left: 65px;
 }
 .custom .face {
   /* background: url( stadiawhite/dpad.png); */
@@ -308,10 +308,10 @@ all 8 positions, and change it according to the inputs. The classes
 themselves are fairly self explanatory. */
 .fstick {
   position: absolute;
-  width: 136px;
-  height: 135px;
-  top: 224px;
-  left: 230px;
+  width: 154px;
+  height: 139px;
+  top: 135px;
+  left: 65px;
   background: url( stadiawhite/dpad.png);
 }
 .fstick.up {
