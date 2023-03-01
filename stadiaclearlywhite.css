@@ -151,16 +151,16 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows {
   position: absolute;
-  width: 165px;
-  height: 50px;
-  top: 208px;
-  left: 365px;
+  width: 237px;
+  height: 26px;
+  top: 62px;
+  left: 336px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back,
 .custom .start {
   width: 50px;
-  height: 36px;
+  height: 26px;
 }
 .custom .back.pressed,
 .custom .start.pressed {
@@ -168,25 +168,25 @@ start and select buttons. */
 .custom .back {
   background: url( stadiawhite/Start.png);
   float: left;
-  width: 38px;
+  width: 50px;
 }
 .custom .start {
   background: url( stadiawhite/Select.png);
   float: right;
-  width: 36px;
+  width: 26px;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy {
   position: absolute;
-  width: 172px;
-  height: 168px;
-  top: 200px;
-  left: 673px;
+  width: 188px;
+  height: 159px;
+  top: 58px;
+  left: 648px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button {
   position: absolute;
-  width: 59px;
+  width: 60px;
   height: 59px;
 }
 .custom .button.pressed {
@@ -216,16 +216,16 @@ Note that the rotation of the sticks in hard coded with javascript, so it applie
 the CSS inline. */
 .custom .sticks {
   position: absolute;
-  width: 422px;
-  height: 220px;
-  top: 110px;
-  left: 147px;
+  width: 676px;
+  height: 99px;
+  top: 181px;
+  left: 270px;
 }
 .custom .stick {
   position: absolute;
   /* background: url( stadiawhite/thumbs.png); */
-  height: 92px;
-  width: 94px;
+  height: 104px;
+  width: 97px;
 }
 .custom .stick.pressed.left {
   /* background-position-x: -106px; */
@@ -249,7 +249,7 @@ the CSS inline. */
   width: 154px;
   height: 139px;
   top: 134px;
-  left: 65px;
+  left: 66px;
 }
 .custom .face {
   /* background: url( stadiawhite/dpad.png); */
@@ -257,13 +257,13 @@ the CSS inline. */
 }
 .custom .face.up,
 .custom .face.down {
-  width: 38px;
-  height: 52px;
+  width: 154px;
+  height: 139px;
 }
 .custom .face.left,
 .custom .face.right {
-  width: 52px;
-  height: 38px;
+  width: 154px;
+  height: 139px;
 }
 .custom .face.up {
   left: 50px;
