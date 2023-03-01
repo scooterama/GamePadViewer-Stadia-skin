@@ -246,10 +246,10 @@ the CSS inline. */
 /* Dpad possitioning and sizing */
 .custom .dpad {
   position: absolute;
-  width: 150px;
-  height: 150px;
-  top: 214px;
-  left: 159px;
+  width: 154px;
+  height: 139px;
+  top: 208px;
+  left: 122px;
 }
 .custom .face {
   /* background: url( stadiawhite/dpad.png); */
