@@ -5,7 +5,7 @@ This repo contains a Stadia clearly white Controller Skin skin for https://gamep
 ## How to use
 
 Go to the website and on the dialog for generating the URL paste the following link in the custom css field  
-https://scooterama.github.io/GamePadViewer-Stadia-skin/Stadia.css
+https://scooterama.github.io/GamePadViewer-Stadia-skin/stadiaclearlywhite.css
 
 ## Preview
 
