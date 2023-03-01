@@ -57,16 +57,16 @@ do so via my paypal: https://paypal.me/mrmcpowned
 }
 .custom .triggers {
   /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-  width: 590px;
-  height: 65px;
+  width: 620px;
+  height: 95px;
   position: absolute;
   left: 162px;
-  top: 8px;
+  top: -86px;
 }
 .custom .trigger {
   /* These are the actual triggers themselves */
   width: 86px;
-  height: 95px;
+  height: 125px;
 }
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
@@ -248,7 +248,7 @@ the CSS inline. */
   position: absolute;
   width: 154px;
   height: 139px;
-  top: 135px;
+  top: 134px;
   left: 65px;
 }
 .custom .face {
@@ -310,8 +310,8 @@ themselves are fairly self explanatory. */
   position: absolute;
   width: 154px;
   height: 139px;
-  top: 135px;
-  left: 65px;
+  top: 134px;
+  left: 66px;
   background: url( stadiawhite/dpad.png);
 }
 .fstick.up {
