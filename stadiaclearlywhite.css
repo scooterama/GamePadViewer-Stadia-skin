@@ -44,8 +44,8 @@ do so via my paypal: https://paypal.me/mrmcpowned
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */
   background: url( stadiawhite/base.png);
-  width: 812px;
-  height: 569px;
+  width: 1035px;
+  height: 777px;
 }
 .custom.disconnected {
   /* This class shows an image when the controller is disconnected */
