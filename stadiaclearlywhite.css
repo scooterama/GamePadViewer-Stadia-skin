@@ -57,11 +57,11 @@ do so via my paypal: https://paypal.me/mrmcpowned
 }
 .custom .triggers {
   /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-  width: 558px;
+  width: 590px;
   height: 65px;
   position: absolute;
-  left: 129px;
-  top: -80px;
+  left: 162px;
+  top: 8px;
 }
 .custom .trigger {
   /* These are the actual triggers themselves */
@@ -151,15 +151,15 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows {
   position: absolute;
-  width: 157px;
-  height: 39px;
-  top: 138px;
-  left: 327px;
+  width: 165px;
+  height: 50px;
+  top: 208px;
+  left: 365px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back,
 .custom .start {
-  width: 36px;
+  width: 50px;
   height: 36px;
 }
 .custom .back.pressed,
@@ -180,8 +180,8 @@ start and select buttons. */
   position: absolute;
   width: 172px;
   height: 168px;
-  top: 75px;
-  left: 532px;
+  top: 200px;
+  left: 673px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button {
@@ -246,10 +246,10 @@ the CSS inline. */
 /* Dpad possitioning and sizing */
 .custom .dpad {
   position: absolute;
-  width: 140px;
-  height: 132px;
-  top: 192px;
-  left: 74px;
+  width: 150px;
+  height: 150px;
+  top: 214px;
+  left: 159px;
 }
 .custom .face {
   /* background: url( stadiawhite/dpad.png); */
