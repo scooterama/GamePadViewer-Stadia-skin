@@ -1,11 +1,11 @@
-# Xbox Elite 2 Skin
+# Stadia clearly white Controller Skin
 
-This repo contains a custom Xbox Elite 2 skin for https://gamepadviewer.com
+This repo contains a Stadia clearly white Controller Skin skin for https://gamepadviewer.com
 
 ## How to use
 
 Go to the website and on the dialog for generating the URL paste the following link in the custom css field  
-https://cinzya.github.io/xbox-elite2-skin/elite2.css
+https://scooterama.github.io/GamePadViewer-Stadia-skin/Stadia.css
 
 ## Preview
 
