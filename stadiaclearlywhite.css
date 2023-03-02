@@ -92,7 +92,7 @@ placement */
 
 .custom .bumper {
   width: 140px;
-  height: 47px;
+  height: 46px;
   /* background: url( stadiawhite/bumpers.png); */
 }
 
@@ -104,7 +104,7 @@ placement */
 .custom .bumper.pressed {
   /* The '.pressed' class is used for most buttons to signify they've been pressed */
   /* opacity: 1; */
-  filter: brightness(2.5);
+  filter: brightness(3.5);
 }
 .custom .bumper.left {
   /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
@@ -206,7 +206,7 @@ start and select buttons. */
 .custom .x {
   background: url( stadiawhite/X.png);
   top: 54px;
-  left: 0px;
+  right: 105px;
 }
 .custom .y {
   background: url( stadiawhite/Y.png);
