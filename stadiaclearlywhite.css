@@ -213,7 +213,7 @@ start and select buttons. */
 .custom .x {
   background: url( stadiawhite/X.png);
   top: 54px;
-  left: -2px;
+  right: 153px;
 }
 .custom .y {
   background: url( stadiawhite/Y.png);
