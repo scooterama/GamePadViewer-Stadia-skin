@@ -86,7 +86,7 @@ placement */
 .custom .bumpers {
   position: absolute;
   width: 674px;
-  height: 53px;
+  height: 49px;
   left: 138px;
 }
 
@@ -153,8 +153,8 @@ start and select buttons. */
   position: absolute;
   width: 267px;
   height: 27px;
-  top: 62px;
-  left: 342px;
+  top: 61px;
+  left: 341px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back,
@@ -206,6 +206,7 @@ start and select buttons. */
 .custom .x {
   background: url( stadiawhite/X.png);
   top: 54px;
+  left: 0px;
 }
 .custom .y {
   background: url( stadiawhite/Y.png);
@@ -216,7 +217,7 @@ Note that the rotation of the sticks in hard coded with javascript, so it applie
 the CSS inline. */
 .custom .sticks {
   position: absolute;
-  width: 391px;
+  width: 405px;
   height: 98px;
   left: 273px;  
   top: 186px;
@@ -240,8 +241,8 @@ the CSS inline. */
 }
 .custom .stick.right {
   background: url( stadiawhite/Stick%20Right.png);
-  top: calc(100% - 105px);
-  left: calc(100% - 98px);
+  top: calc(100% - 98px);
+  left: calc(100% - 105px);
 }
 /* Dpad possitioning and sizing 
 .custom .dpad {
@@ -309,8 +310,8 @@ all 8 positions, and change it according to the inputs. The classes
 themselves are fairly self explanatory. */
 .fstick {
   position: absolute;
-  width: 139px;
-  height: 118px;
+  width: 153px;
+  height: 140px;
   left: 133px;
   top: 68px;
   background: url( stadiawhite/dpad.png);
