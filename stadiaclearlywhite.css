@@ -80,12 +80,10 @@ above to achieve the desired position. */
 .custom .trigger.left {
   background: url( stadiawhite/Trigger%20Left.png);
   float: left;
-    filter: brightness(2.5);
 }
 .custom .trigger.right {
   background: url( stadiawhite/Trigger%20Right.png);
   float: right;
-  filter: brightness(2.5);
 }
 
 /* The bumpers follow the same methodology as the triggers in terms of
