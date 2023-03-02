@@ -86,13 +86,13 @@ placement */
 .custom .bumpers {
   position: absolute;
   width: 674px;
-  height: 49px;
+  height: 48px;
   left: 138px;
 }
 
 .custom .bumper {
   width: 140px;
-  height: 53px;
+  height: 47px;
   /* background: url( stadiawhite/bumpers.png); */
 }
 
@@ -160,7 +160,7 @@ start and select buttons. */
 .custom .back,
 .custom .start {
   width: 49px;
-  height: 26px;
+  height: 27px;
 }
 .custom .back.pressed,
 .custom .start.pressed {
@@ -178,16 +178,16 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy {
   position: absolute;
-  width: 150px;
-  height: 168px;
-  left: 684px;
-  top: 54px;
+  width: 152px;
+  height: 170px;
+  left: 683px;
+  top: 53px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button {
   position: absolute;
-  width: 62px;
-  height: 58px;
+  width: 68px;
+  height: 62px;
 }
 .custom .button.pressed {
  background-position-y: 5px;
@@ -196,7 +196,7 @@ start and select buttons. */
 .custom .a {
   background: url( stadiawhite/A.png);
   top: 109px;
-  left: 63px;
+  left: 64px;
 }
 .custom .b {
   background: url( stadiawhite/B.png);
@@ -248,7 +248,7 @@ the CSS inline. */
 /* Dpad possitioning and sizing 
 .custom .dpad {
   position: absolute;
-  width: 118px;
+  width: 154px;
   height: 140px;
   left: 133px;
   top: 68px;
@@ -261,12 +261,12 @@ the CSS inline. */
 .custom .face.up,
 .custom .face.down {
   width: 154px;
-  height: 139px;
+  height: 140px;
 }
 .custom .face.left,
 .custom .face.right {
   width: 154px;
-  height: 139px;
+  height: 140px;
 }
 .custom .face.up {
   left: 50px;
@@ -311,7 +311,7 @@ all 8 positions, and change it according to the inputs. The classes
 themselves are fairly self explanatory. */
 .fstick {
   position: absolute;
-  width: 153px;
+  width: 154px;
   height: 140px;
   left: 133px;
   top: 68px;
