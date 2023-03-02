@@ -186,8 +186,8 @@ start and select buttons. */
 /* base class used to simplify the sprite mapping */
 .custom .button {
   position: absolute;
-  width: 68px;
-  height: 62px;
+  width: 62px;
+  height: 58px;
 }
 .custom .button.pressed {
  background-position-y: 2px;
