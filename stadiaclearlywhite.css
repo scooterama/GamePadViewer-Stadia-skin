@@ -190,13 +190,13 @@ start and select buttons. */
   height: 62px;
 }
 .custom .button.pressed {
- background-position-y: 5px;
-  margin-top: 5px; 
+ background-position-y: 2px;
+  margin-top: 2px; 
 }
 .custom .a {
   background: url( stadiawhite/A.png);
   top: 109px;
-  left: 64px;
+  right: 62px;
 }
 .custom .b {
   background: url( stadiawhite/B.png);
@@ -206,11 +206,11 @@ start and select buttons. */
 .custom .x {
   background: url( stadiawhite/X.png);
   top: 54px;
-  left: 0px;
+  left: -68px;
 }
 .custom .y {
   background: url( stadiawhite/Y.png);
-  left: 62px;
+  right: 62px;
   top: 0px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
@@ -243,7 +243,7 @@ the CSS inline. */
 .custom .stick.right {
   background: url( stadiawhite/Stick%20Right.png);
   top: calc(100% - 98px);
-  left: calc(100% - 105px);
+  left: calc(100% - 106px);
 }
 /* Dpad possitioning and sizing 
 .custom .dpad {
