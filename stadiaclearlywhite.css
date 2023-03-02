@@ -86,13 +86,13 @@ placement */
 .custom .bumpers {
   position: absolute;
   width: 674px;
-  height: 50px;
+  height: 49px;
   left: 138px;
 }
 
 .custom .bumper {
   width: 140px;
-  height: 50px;
+  height: 49px;
   /* background: url( stadiawhite/bumpers.png); */
 }
 
@@ -154,7 +154,7 @@ start and select buttons. */
   width: 267px;
   height: 27px;
   top: 62px;
-  left: 343px;
+  left: 342px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back,
@@ -186,11 +186,11 @@ start and select buttons. */
 /* base class used to simplify the sprite mapping */
 .custom .button {
   position: absolute;
-  width: 63px;
+  width: 60px;
   height: 53px;
 }
 .custom .button.pressed {
- background-position-y: -24px;
+ background-position-y: 14px;
   margin-top: 5px; 
 }
 .custom .a {
@@ -224,8 +224,8 @@ the CSS inline. */
 .custom .stick {
   position: absolute;
   /* background: url( stadiawhite/thumbs.png); */
-  height: 105px;
-  width: 98px;
+  height: 98px;
+  width: 105px;
 }
 .custom .stick.pressed.left {
   /* background-position-x: -106px; */
@@ -240,19 +240,20 @@ the CSS inline. */
 }
 .custom .stick.right {
   background: url( stadiawhite/Stick%20Right.png);
-  top: calc(100% - 105px);
-  left: calc(100% - 98px);
+  top: calc(100% - 98px);
+  left: calc(100% - 105px);
 }
 /* Dpad possitioning and sizing */
 .custom .dpad {
   position: absolute;
-  width: 139px;
-  height: 118px;
+  width: 118px;
+  height: 140px;
   left: 134px;
   top: 68px;
 }
+/*
 .custom .face {
-  /* background: url( stadiawhite/dpad.png); */
+  /* background: url( stadiawhite/dpad.png); 
   position: absolute;
 }
 .custom .face.up,
@@ -288,7 +289,7 @@ the CSS inline. */
 .custom .face.pressed {
   margin-top: 5px;
   background-position-y: 52px;
-}
+} */
 /* The following entries are empty because I haven't used them yet, but they
 exist for the purpose of displaying a fightstick. Since fightsticks have 
 the left and right triggers and digital buttons, there are separate 
@@ -308,10 +309,10 @@ all 8 positions, and change it according to the inputs. The classes
 themselves are fairly self explanatory. */
 .fstick {
   position: absolute;
-  width: 154px;
-  height: 139px;
-  top: 134px;
-  left: 66px;
+  width: 118px;
+  height: 140px;
+  left: 134px;
+  top: 68px;
   background: url( stadiawhite/dpad.png);
 }
 .fstick.up {
