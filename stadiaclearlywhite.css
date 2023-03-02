@@ -211,7 +211,7 @@ start and select buttons. */
 .custom .x {
   background: url( stadiawhite/X.png);
   top: 54px;
-  right: 105px;
+  left: -60px;
 }
 .custom .y {
   background: url( stadiawhite/Y.png);
