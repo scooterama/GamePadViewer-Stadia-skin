@@ -44,8 +44,8 @@ do so via my paypal: https://paypal.me/mrmcpowned
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */
   background: url( stadiawhite/base.png);
-  width: 1035px;
-  height: 777px;
+  width: 950px;
+  height: 625px;
 }
 .custom.disconnected {
   /* This class shows an image when the controller is disconnected */
@@ -57,16 +57,16 @@ do so via my paypal: https://paypal.me/mrmcpowned
 }
 .custom .triggers {
   /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-  width: 620px;
-  height: 95px;
+  width: 654px;
+  height: 136px;
   position: absolute;
-  left: 162px;
-  top: -86px;
+  left: 149px;
+  top: -139px;
 }
 .custom .trigger {
   /* These are the actual triggers themselves */
-  width: 86px;
-  height: 125px;
+  width: 148px;
+  height: 136px;
 }
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
@@ -85,14 +85,14 @@ above to achieve the desired position. */
 placement */
 .custom .bumpers {
   position: absolute;
-  width: 571px;
-  height: 71px;
-  left: 120px;
+  width: 674px;
+  height: 50px;
+  left: 138px;
 }
 
 .custom .bumper {
-  width: 177px;
-  height: 71px;
+  width: 140px;
+  height: 50px;
   /* background: url( stadiawhite/bumpers.png); */
 }
 
@@ -151,16 +151,16 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows {
   position: absolute;
-  width: 237px;
-  height: 26px;
+  width: 267px;
+  height: 27px;
   top: 62px;
-  left: 336px;
+  left: 343px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back,
 .custom .start {
   width: 50px;
-  height: 26px;
+  height: 27px;
 }
 .custom .back.pressed,
 .custom .start.pressed {
@@ -173,25 +173,25 @@ start and select buttons. */
 .custom .start {
   background: url( stadiawhite/Select.png);
   float: right;
-  width: 26px;
+  width: 50px;
 }
 /* Positioning and size of the container for the face buttons */
 .custom .abxy {
   position: absolute;
-  width: 188px;
-  height: 159px;
-  top: 58px;
-  left: 648px;
+  width: 150px;
+  height: 168px;
+  left: 684px;
+  top: 54px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button {
   position: absolute;
-  width: 60px;
-  height: 59px;
+  width: 63px;
+  height: 53px;
 }
 .custom .button.pressed {
-  /* background-position-y: -64px;
-  margin-top: 5px; */
+ background-position-y: -24px;
+  margin-top: 5px; 
 }
 .custom .a {
   background: url( stadiawhite/A.png);
@@ -216,16 +216,16 @@ Note that the rotation of the sticks in hard coded with javascript, so it applie
 the CSS inline. */
 .custom .sticks {
   position: absolute;
-  width: 676px;
-  height: 99px;
-  top: 181px;
-  left: 270px;
+  width: 391px;
+  height: 98px;
+  left: 273px;  
+  top: 186px;
 }
 .custom .stick {
   position: absolute;
   /* background: url( stadiawhite/thumbs.png); */
-  height: 104px;
-  width: 97px;
+  height: 105px;
+  width: 98px;
 }
 .custom .stick.pressed.left {
   /* background-position-x: -106px; */
@@ -240,16 +240,16 @@ the CSS inline. */
 }
 .custom .stick.right {
   background: url( stadiawhite/Stick%20Right.png);
-  top: calc(100% - 96px);
-  left: calc(100% - 101px);
+  top: calc(100% - 105px);
+  left: calc(100% - 98px);
 }
 /* Dpad possitioning and sizing */
 .custom .dpad {
   position: absolute;
-  width: 154px;
-  height: 139px;
-  top: 134px;
-  left: 66px;
+  width: 139px;
+  height: 118px;
+  left: 134px;
+  top: 68px;
 }
 .custom .face {
   /* background: url( stadiawhite/dpad.png); */
