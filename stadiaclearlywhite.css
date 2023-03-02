@@ -206,16 +206,16 @@ start and select buttons. */
 .custom .b {
   background: url( stadiawhite/B.png);
   top: 55px;
-  right: 0px;
+  right: 1px;
 }
 .custom .x {
   background: url( stadiawhite/X.png);
   top: 54px;
-  right: 122px;
+  right: 124px;
 }
 .custom .y {
   background: url( stadiawhite/Y.png);
-  right: 63px;
+  right: 64px;
   top: -2px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
