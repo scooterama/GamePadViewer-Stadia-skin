@@ -68,6 +68,11 @@ do so via my paypal: https://paypal.me/mrmcpowned
   width: 148px;
   height: 136px;
 }
+.custom .trigger.pressed {
+  /* The '.pressed' class is used for most buttons to signify they've been pressed */
+  /* opacity: 1; */
+  filter: brightness(3.5);
+}
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
 to the size of the parent element, we simply resize the parent element 
