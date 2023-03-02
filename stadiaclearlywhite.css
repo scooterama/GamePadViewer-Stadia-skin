@@ -242,7 +242,7 @@ the CSS inline. */
 }
 .custom .stick.right {
   background: url( stadiawhite/Stick%20Right.png);
-  top: calc(100% - 98px);
+  top: calc(100% - 99px);
   left: calc(100% - 107px);
 }
 /* Dpad possitioning and sizing 
