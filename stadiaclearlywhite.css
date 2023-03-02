@@ -186,8 +186,8 @@ start and select buttons. */
 /* base class used to simplify the sprite mapping */
 .custom .button {
   position: absolute;
-  width: 60px;
-  height: 53px;
+  width: 62px;
+  height: 58px;
 }
 .custom .button.pressed {
  background-position-y: 5px;
@@ -196,7 +196,7 @@ start and select buttons. */
 .custom .a {
   background: url( stadiawhite/A.png);
   top: 109px;
-  left: 27px;
+  left: 63px;
 }
 .custom .b {
   background: url( stadiawhite/B.png);
@@ -210,7 +210,8 @@ start and select buttons. */
 }
 .custom .y {
   background: url( stadiawhite/Y.png);
-  left: 27px;
+  left: 62px;
+  top: 0px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
